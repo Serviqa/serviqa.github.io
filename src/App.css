@@ -1,37 +1,54 @@
 .App-header {
     background-color: #152C5B;
-    min-height: 30rem;
+    position: relative;
+    height: 30rem;
     color: white;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: .8rem 2rem;
-    background-color: white;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 6rem;
+        padding: .8rem 2rem;
+        background-color: white;
 
 
-    .logo {
-        width: 20%;
-        cursor: pointer;
+        .logo {
+            width: 20%;
+            cursor: pointer;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            column-gap: 3rem;
+
+            button {
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 1rem;
+                font-weight: 600;
+                background-color: var(--primary-color-1);
+                color: white;
+                cursor: pointer;
+            }
+        }
     }
 
-    .links {
+    .message {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        column-gap: 3rem;
+        height: calc(100% - 6rem);
+        font-size: 2rem;
 
-        button {
-            padding: .5rem 1rem;
-            border: none;
-            border-radius: 1rem;
-            font-weight: 600;
-            background-color: var(--primary-color-1);
-            color: white;
-            cursor: pointer;
+        .ball {
+            position: absolute;
+            top: 30%;
+            right: -2rem;
         }
     }
 }
