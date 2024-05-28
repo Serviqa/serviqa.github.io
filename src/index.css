@@ -9,8 +9,13 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --primary-color-1: #1695A4;
+  --blue-primary-color-1: #1695A4;
+  --blue-primary-color-2: #19A7B8;
   --primary-color-2: #E38221;
+  --footer-color: #08383D;
+  --footer-color-2: #09454D;
+  --footer-text-input-bg-color: #125760;
+  --footer-btn-color: #092E32;
 
 
   font-synthesis: none;
