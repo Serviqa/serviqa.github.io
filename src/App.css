@@ -43,12 +43,12 @@
         align-items: center;
         height: calc(100% - 5.5rem);
         font-size: 2rem;
+        position: relative;
 
         .ball {
-            /* position: absolute;
-            top: 30%;
-            right: -2rem; */
-            float: right;
+            position: absolute;
+            top: 14%;
+            right: -2rem;
         }
     }
 }
