@@ -17,10 +17,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
 
+.scrollbar-hidden {
+  -ms-overflow-style: none;
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }

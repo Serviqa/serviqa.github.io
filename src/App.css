@@ -52,3 +52,14 @@
         }
     }
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .coming-soon {
+        width: 40%;
+        margin: 3rem 0;
+    }
+}
