@@ -29,7 +29,7 @@
                 border: none;
                 border-radius: 1.5rem;
                 font-weight: 600;
-                background-color: var(--primary-color-1);
+                background-color: var(--blue-primary-color-1);
                 color: white;
                 cursor: pointer;
             }
@@ -149,7 +149,7 @@ footer {
                     color: var(--primary-color-2);
                 }
 
-                button {
+                .footer-btn {
                     padding: .5rem 1rem;
                     border: none;
                     border-radius: 0 .5rem .5rem 0;

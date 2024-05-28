@@ -83,9 +83,9 @@ function Footer() {
             You&apos;ll receive updates on our latest discout and offers
             directly in your inbox.
           </p>
-          <form action="">
+          <form action="" className="footer-form">
             <input type="email" placeholder="Enter your email" />
-            <button>Subscribe</button>
+            <button className="footer-btn">Subscribe</button>
           </form>
         </div>
       </div>
