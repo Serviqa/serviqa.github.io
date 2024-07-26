@@ -148,22 +148,21 @@ footer {
 
                 .address {
                     grid-area: adress;
-                    row-gap: 0;
+
                 }
 
                 .company {
                     grid-area: company;
-                    row-gap: 0;
+                    text-align: right;
                 }
 
                 .legal {
                     grid-area: legal;
-                    row-gap: 0;
                 }
 
                 .quick-links {
                     grid-area: quick-links;
-                    row-gap: 0;
+                    text-align: right;
 
 
                 }
