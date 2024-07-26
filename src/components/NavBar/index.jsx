@@ -1,5 +1,6 @@
-import brand from "../assets/brand.svg";
-import hamburger from "../assets/hamburger.svg";
+import brand from "../../assets/brand.svg";
+import hamburger from "../../assets/hamburger.svg";
+import "./index.css";
 
 function NavBar() {
   return (

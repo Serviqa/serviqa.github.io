@@ -3,39 +3,7 @@
     height: auto;
     color: white;
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: .8rem 2rem;
-        -moz-box-shadow: 0 1px 10px #99E8F1;
-        -webkit-box-shadow: 0 1px 10px #99E8F1;
-        box-shadow: 0 1px 15px #99E8F1;
 
-
-        .logo {
-            width: 20%;
-            cursor: pointer;
-        }
-
-        .links {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            column-gap: 3rem;
-
-            button {
-                padding: .8rem 1.8rem;
-                border: none;
-                border-radius: 1.5rem;
-                font-weight: 600;
-                background-color: var(--blue-primary-color-1);
-                color: white;
-                cursor: pointer;
-            }
-        }
-    }
 
     .message {
         display: flex;
@@ -68,121 +36,13 @@
     }
 }
 
-footer {
-    background-color: var(--footer-color);
-    color: white;
-    padding: 2rem;
-
-
-    .brand-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 1rem;
-        margin-bottom: 2rem;
-
-        img {
-            width: 15rem;
-        }
-    }
-
-    .footer-links {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        align-items: first baseline;
-        column-gap: 2rem;
-        margin-top: 2rem;
-
-        h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-
-
-        .address {
-            display: flex;
-            flex-direction: column;
-            row-gap: .5rem;
-
-            flex: .7;
-
-            a {
-                display: flex;
-                align-items: center;
-                column-gap: .5rem;
-                color: white;
-                text-decoration: none;
-            }
-        }
-
-        .links {
-            display: flex;
-            column-gap: 2rem;
-            flex: 1.5;
-            justify-content: space-between;
-
-
-
-            li {
-                list-style: none;
-            }
-
-            a {
-                color: white;
-                text-decoration: none;
-                cursor: pointer;
-            }
-        }
-
-        .newsletter {
-            display: flex;
-            flex-direction: column;
-            row-gap: 1rem;
-            flex: .8;
-            background-color: var(--footer-color-2);
-            padding: .5rem 1rem 1rem 1rem;
-            border-radius: 1rem;
-            margin-left: 1rem;
-
-
-            form {
-                display: flex;
-
-                input {
-                    padding: .5rem;
-                    border: none;
-                    border-radius: .5rem 0 0 .5rem;
-                    background-color: var(--footer-text-input-bg-color);
-                    flex: 1;
-                    outline: none;
-                    caret-color: var(--primary-color-2);
-                    color: var(--primary-color-2);
-
-
-                }
-
-                input::placeholder {
-                    color: var(--primary-color-2);
-                }
-
-                .footer-btn {
-                    padding: .5rem 1rem;
-                    border: none;
-                    border-radius: 0 .5rem .5rem 0;
-                    background-color: var(--footer-btn-color);
-                    color: white;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-}
 
 
 @media screen and (max-width: 768px) {
 
     .App-header {
+        overflow-x: hidden;
+
         .navbar {
             .logo {
                 width: 30%;
@@ -217,50 +77,5 @@ footer {
         }
     }
 
-    footer {
 
-        padding: 1rem;
-
-
-        a {
-            font-size: 1.3rem;
-        }
-
-        .brand-container {
-            img {
-                width: 10rem;
-            }
-        }
-
-        .footer-links {
-            flex-direction: column;
-            row-gap: 2rem;
-            /* border: 2px solid red; */
-            align-items: start;
-            text-align: center;
-
-            h3 {
-                font-size: 1.7rem;
-            }
-
-            .address {
-                row-gap: 0;
-                column-gap: 1rem;
-                width: 100%;
-                /* align-items: center; */
-                /* padding-left: 2rem; */
-
-                a {
-                    margin-left: 5rem;
-                }
-            }
-
-            .links {
-                flex-direction: column;
-                row-gap: 1rem;
-                align-items: center;
-                width: 100%;
-            }
-        }
-    }
 }
