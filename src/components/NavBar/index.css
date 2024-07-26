@@ -31,3 +31,21 @@
             }
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .navbar {
+            padding: .8rem;
+
+            .logo {
+                width: 55%;
+            }
+
+            .links {
+                column-gap: 1rem;
+
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
