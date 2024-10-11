@@ -13,7 +13,11 @@ function NavBar() {
       <div className="links">
         <button> Connect with us </button>
 
+<<<<<<< HEAD
         <img src={hamburger} id="hamburger" alt="hamburger button" />
+=======
+        <img src={hamburger} className="hamburger" alt="hamburger button" />
+>>>>>>> 8bb21937e52009957ce0090e7ebfe6f2496d5264
       </div>
     </nav>
   );
