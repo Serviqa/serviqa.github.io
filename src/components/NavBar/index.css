@@ -29,6 +29,10 @@
                 color: white;
                 cursor: pointer;
             }
+
+            .hamburger {
+                cursor: pointer;
+            }
         }
     }
 

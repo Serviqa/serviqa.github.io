@@ -10,7 +10,7 @@ function NavBar() {
       <div className="links">
         <button> Connect with us </button>
 
-        <img src={hamburger} alt="hamburger button" />
+        <img src={hamburger} className="hamburger" alt="hamburger button" />
       </div>
     </nav>
   );
