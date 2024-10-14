@@ -10,7 +10,7 @@ function Header() {
       <NavBar />
       <div className="message">
         <h2> STAY TUNED</h2>
-        <p> We are working on something awesome! </p>
+        <p>This Website Is Under Construction! </p>
 
         <img src={ball} className="ball" alt="ball" />
         <img src={comingSoon} className="coming-soon" alt="coming-soon" />
