@@ -1,1 +1,1 @@
-# Code for Serviqa website
+# Serviqa website
